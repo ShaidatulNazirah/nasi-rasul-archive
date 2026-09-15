@@ -313,8 +313,16 @@ applyLang();
 
 const visitEl = document.getElementById('visitCount');
 if(visitEl && typeof fetch === 'function'){
-  fetch('https://nasi-rasul.goatcounter.com/counter/TOTAL.json')
+  let counted = false;
+  try { counted = !!sessionStorage.getItem('nasiRasulVisit'); } catch(e){}
+  const visitUrl = counted
+    ? 'https://abacus.jasoncameron.dev/get/nasi-rasul/visits'
+    : 'https://abacus.jasoncameron.dev/hit/nasi-rasul/visits';
+  fetch(visitUrl)
     .then(r => r.json())
-    .then(d => { if(d && d.count != null) visitEl.textContent = d.count; })
+    .then(d => {
+      if(d && d.value != null) visitEl.textContent = Number(d.value).toLocaleString();
+      if(!counted){ try { sessionStorage.setItem('nasiRasulVisit','1'); } catch(e){} }
+    })
     .catch(() => {});
 }
