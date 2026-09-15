@@ -234,6 +234,12 @@
     font-family:'JetBrains Mono',monospace; font-size:11.5px; color:rgba(243,236,217,0.55);
     margin-top:30px; border-top:1px solid rgba(243,236,217,0.15); padding-top:20px;
   }
+  .visit-count{
+    display:block; margin-top:10px;
+    font-family:'JetBrains Mono',monospace; font-size:11.5px;
+    color:rgba(243,236,217,0.55); letter-spacing:0.03em;
+  }
+  .visit-count #visitCount{color:var(--mustard); font-weight:600;}
 
   /* ---------- top navigation ---------- */
   .topnav{

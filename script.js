@@ -157,6 +157,7 @@ Object.assign(t, {
   metodP: {ms:"Ringkasan kaedah pengumpulan dan pengesahan data lapangan.", en:"A summary of the field data collection and verification methods."},
   prevOpen: {ms:"Buka →", en:"Open →"},
   footerNavHeading: {ms:"Laman", en:"Pages"},
+  visitLabel: {ms:"Jumlah kunjungan laman", en:"Total site visits"},
 });
 
 try { currentLang = localStorage.getItem('nasiRasulLang') || currentLang; } catch(e){}
@@ -309,3 +310,11 @@ if(langToggle){
 })();
 
 applyLang();
+
+const visitEl = document.getElementById('visitCount');
+if(visitEl && typeof fetch === 'function'){
+  fetch('https://nasi-rasul.goatcounter.com/counter/TOTAL.json')
+    .then(r => r.json())
+    .then(d => { if(d && d.count != null) visitEl.textContent = d.count; })
+    .catch(() => {});
+}
