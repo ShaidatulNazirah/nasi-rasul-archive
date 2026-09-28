@@ -28,20 +28,20 @@ const catalog = [
     desc:"Antin-antin, hiasan jaluran berwarna coklat pada Nasi Rasul.", desc_en:"Antin-antin, a brown striped decoration on the Nasi Rasul.",
     tarikh:"6 Okt 2024, 6.26 petang", lokasi:"Kg. Sungai Tuda",
     makna:"Berkongsi / memberikan rasa bahagia pada tetamu yang hadir.", makna_en:"Represents sharing and bringing happiness to the guests present.",
-    informan:"Bidan Mahani (Tidong Apas); Bidan Jubaidah (Tidong Sembakung); Tukang kuih Norraha (Tidong Sembakung)", etika:"Ya", etika_en:"Yes"},
+    informan:"Bidan Mahani (Tidong Apas); Bidan Zubaidah (Tidong Sembakung); Tukang kuih Norraha (Tidong Sembakung)", etika:"Ya", etika_en:"Yes"},
   {code:"TDG-012", category:"Bahan-Simbol", category_en:"Symbolic Elements",
     title:"Bentuk Nasi Rasul menyerupai bukit", title_en:"Nasi Rasul shaped like a hill",
     desc:"Bentuk Nasi Rasul dibentuk menyerupai bukit.", desc_en:"The Nasi Rasul is shaped to resemble a hill.",
     tarikh:"6 Okt 2024, 6.27 petang", lokasi:"Kg. Sungai Tuda",
     makna:"Menyerupai bukit tempat Nabi Muhammad bermunajat dan berdoa, didoakan keberkatan untuk bayi.", makna_en:"Resembles the hill where the Prophet Muhammad prayed in seclusion; a prayer for blessing upon the child.",
-    informan:"Orang Lama Hanipa (Tidong Sembakung)", etika:"Ya", etika_en:"Yes",
+    informan:"Orang Lama Hanipa (Tidong Sembakung); Imam Hassan (Tidong Kalabakan)", etika:"Ya", etika_en:"Yes",
     extra:[{makna:"Menyerupai bukit tempat Rasul naik untuk mengasingkan diri di Gua Hira'.", makna_en:"Resembles the hill where the Prophet withdrew in seclusion at the Cave of Hira.", informan:"Imam Hassan (Tidong Kalabakan)"}]},
   {code:"TDG-013", category:"Bahan-Simbol", category_en:"Symbolic Elements",
     title:"Warna kekuningan & hiasan telur", title_en:"Yellowish colour & egg decoration",
     desc:"Warna Nasi Rasul yang kekuningan, berserta hiasan telur.", desc_en:"The yellowish colour of the Nasi Rasul, together with an egg decoration.",
     tarikh:"6 Okt 2024, 6.28 petang", lokasi:"Kg. Sungai Tuda",
-    makna:"Terkait dengan resam warna tulang manusia.", makna_en:"Linked to the natural colour of human bone.",
-    informan:"Imam Hassan (Tidong Kalabakan)", etika:"Ya", etika_en:"Yes",
+    makna:"Penghormatan dan kemuliaan pada junjungan Nabi Muhammad / terkait dengan resam warna tulang manusia / keberkatan.", makna_en:"Respect and reverence for the Prophet Muhammad / linked to the natural colour of human bone / blessings.",
+    informan:"Orang Lama Ainun (Tidong Sembakung); Imam Hassan (Tidong Kalabakan); Tukang kuih Norraha (Tidong Sembakung)", etika:"Ya", etika_en:"Yes",
     extra:[
       {makna:"Simbol penghormatan dan kemuliaan pada junjungan Nabi Muhammad.", makna_en:"A symbol of respect and reverence for the Prophet Muhammad.", informan:"Orang Lama Ainun (Tidong Sembakung)"},
       {makna:"Hiasan telur: kuning melambangkan resam tulang manusia yang lama-kelamaan kekuningan, putih melambangkan tulang manusia yang asalnya putih.", makna_en:"Egg decoration: the yolk represents bone that yellows over time, the white represents bone in its original state.", informan:"Imam Hassan (Tidong Kalabakan)"},
@@ -59,7 +59,7 @@ const catalog = [
     desc:"Potongan kecil Nasi Rasul untuk dibahagikan kepada tetamu yang hadir.", desc_en:"Small portions of Nasi Rasul distributed to the guests present.",
     tarikh:"7 Okt 2024, 6.34 pagi", lokasi:"Kg. Sungai Tuda",
     makna:"Simbol sedekahan, iaitu sebagai buah tangan.", makna_en:"A symbol of almsgiving, given as a token gift.",
-    informan:"Bidan Jubaidah (Tidong Sembakung)", etika:"Ya", etika_en:"Yes"},
+    informan:"Bidan Zubaidah (Tidong Sembakung)", etika:"Ya", etika_en:"Yes"},
   {code:"TDG-016", category:"Interaksi Informan", category_en:"Informant Interaction",
     title:"Potongan Nasi Rasul, penghormatan", title_en:"Nasi Rasul portions, as a gesture of respect",
     desc:"Potongan kecil Nasi Rasul untuk dibahagikan kepada tetamu yang hadir.", desc_en:"Small portions of Nasi Rasul distributed to the guests present.",
@@ -70,7 +70,7 @@ const catalog = [
 
 const glossary = [
   {symbol:"Bukit", symbol_en:"Hill", desc:"Bentuk Nasi Rasul menyerupai bukit, merujuk kepada bukit tempat Nabi Muhammad bermunajat dan berdoa, serta bukit Gua Hira' tempat Rasul mengasingkan diri.", desc_en:"The Nasi Rasul is shaped like a hill, referring to the hill where the Prophet Muhammad prayed and the Cave of Hira where he withdrew in seclusion.", source:"TDG-012"},
-  {symbol:"Warna Kekuningan", symbol_en:"Yellowish Colour", desc:"Warna Nasi Rasul yang kekuningan dikaitkan dengan resam warna tulang manusia, dan juga simbol penghormatan serta kemuliaan Nabi Muhammad.", desc_en:"The yellowish colour of Nasi Rasul is linked to the natural colour of human bone, and also symbolises respect and reverence for the Prophet Muhammad.", source:"TDG-013"},
+  {symbol:"Warna Kekuningan", symbol_en:"Yellowish Colour", desc:"Warna Nasi Rasul yang kekuningan dikaitkan dengan simbol penghormatan serta kemuliaan Nabi Muhammad", desc_en:"The yellowish colour of Nasi Rasul is linked to a symbol of respect and reverence for the Prophet Muhammad", source:"TDG-013"},
   {symbol:"Telur (Kuning & Putih)", symbol_en:"Egg (Yolk & White)", desc:"Kuning telur melambangkan resam tulang manusia / keagungan; putih telur melambangkan tulang asal / kesucian dan kebersihan.", desc_en:"The yolk symbolises the colour of aged bone and grandeur; the white symbolises bone in its original state, purity and cleanliness.", source:"TDG-013"},
   {symbol:"Antin-antin", symbol_en:"Antin-antin", desc:"Hiasan jaluran coklat pada Nasi Rasul yang membawa makna berkongsi dan memberi rasa bahagia kepada tetamu.", desc_en:"A brown striped decoration on Nasi Rasul that represents sharing and bringing happiness to guests.", source:"TDG-011"},
   {symbol:"Genggaman Tangan Bayi", symbol_en:"Baby's Clenched Hand", desc:"Teknik memerah santan dengan jari menahan ruas tengah telunjuk menyerupai genggaman tangan bayi yang diraikan.", desc_en:"The coconut-milk extraction technique, with the finger pressing the middle joint, resembles the clenched hand of the celebrated baby.", source:"TDG-006"},
@@ -88,15 +88,15 @@ const t = {
   heroTitle: {ms:'Nasi Rasul: <em>Katalog Pemuliharaan Digital</em>', en:'Nasi Rasul: <em>Digital Preservation Catalogue</em>'},
   heroSub: {ms:"Dokumentasi gastrosemiotik makanan ritual dalam upacara Pasak Indong (Naik Ayun). Ini prototaip awal untuk menyimpan pengetahuan budaya lisan sebelum ia hilang begitu sahaja.", en:"A gastrosemiotic documentation of ritual food in the Pasak Indong (Naik Ayun) ceremony. This is an early prototype to preserve oral cultural knowledge before it fades away."},
   meta1: {ms:"10 rekod foto", en:"10 photo records"},
-  meta2: {ms:"7 informan", en:"7 informants"},
-  meta3: {ms:"6–7 Okt 2024 · Kg. Sungai Tuda", en:"6–7 Oct 2024 · Kg. Sungai Tuda"},
+  meta2: {ms:"9 informan", en:"9 informants"},
+  meta3: {ms:"Okt 2024 & Jan - May 2026 · Kg. Sungai Tuda", en:"Oct 2024 & Jan - May 2026 · Kg. Sungai Tuda"},
   tentangKicker: {ms:"Tentang Projek", en:"About the Project"},
   tentangHeading: {ms:"Menyelamatkan makna sebelum ia senyap", en:"Preserving meaning before it goes silent"},
-  tentangP1: {ms:"Amalan makanan ritual seperti Nasi Rasul dalam upacara Pasak Indong membawa makna simbolik yang kaya di kalangan masyarakat Tidong. Namun pengetahuan ini tidak pernah didokumentasikan secara sistematik, dan makin berisiko luput apabila semakin sedikit orang yang memegangnya.", en:"Ritual food practices such as Nasi Rasul in the Pasak Indong ceremony carry rich symbolic meaning among the Tidong community. Yet this knowledge has never been systematically documented, and risks fading as fewer people carry it forward."},
+  tentangP1: {ms:"Amalan makanan ritual seperti Nasi Rasul dalam upacara Pasak Indong membawa makna simbolik yang kaya di kalangan masyarakat Tidong. Namun pendokumentasian khususnya terhadap Nasi Rasul dalam upacara Pasak Indong (Naik Ayun) di Kampung Sungai Tuda, Kalabakan, Sabah masih belum dilakukan secara sistematik. Keadaan ini berisiko luput apabila semakin sedikit orang yang mengamalkannya.", en:"Ritual food practices such as Nasi Rasul in the Pasak Indong ceremony carry rich symbolic meaning among the Tidong community. Yet this knowledge has never been systematically documented, and risks fading as fewer people carry it forward."},
   tentangP2: {ms:"Laman ini adalah prototaip awal rangka kerja pemuliharaan digital. Setiap foto lapangan dikatalogkan dengan metadata berstruktur (tarikh, lokasi, kategori, makna simbolik, dan informan) supaya pengetahuan gastrosemiotik ini boleh dirujuk, dikongsi, dan dikekalkan untuk generasi akan datang.", en:"This site is an early prototype of a digital preservation framework. Each field photograph is catalogued with structured metadata (date, location, category, symbolic meaning, and informant) so this gastrosemiotic knowledge can be referenced, shared, and preserved for future generations."},
   stat1: {ms:"Foto dikatalogkan", en:"Photos catalogued"},
   stat2: {ms:"Informan bermakna", en:"Meaningful informants"},
-  stat3: {ms:"Hari kerja lapangan", en:"Days of fieldwork"},
+  stat3: {ms:"Fasa kerja lapangan", en:"Phase of fieldwork"},
   stat4: {ms:"Kategori dokumentasi", en:"Documentation categories"},
   katalogKicker: {ms:"Rekod Lapangan", en:"Field Records"},
   katalogHeading: {ms:"Katalog Foto", en:"Photo Catalogue"},
@@ -118,22 +118,22 @@ const t = {
   recInforman: {ms:"Informan / Peranan", en:"Informant / Role"},
   recEtika: {ms:"Kebenaran Guna (Etika)", en:"Consent (Ethics)"},
   footerHeading: {ms:"Nasi Rasul — Katalog Pemuliharaan Digital", en:"Nasi Rasul — Digital Preservation Catalogue"},
-  footerP1: {ms:"Prototaip dokumentasi digital sokongan Penyertaan Poster ICVIAS 2026, Fakulti Sains Sosial dan Kemanusiaan (FSSH), Universiti Malaysia Sabah.", en:"A digital documentation prototype supporting the ICVIAS 2026 Poster Competition entry, Faculty of Social Sciences and Humanities (FSSH), Universiti Malaysia Sabah."},
+  footerP1: {ms:"Prototaip dokumentasi digital sokongan Penyertaan Poster ICVIAS 2026, Fakulti Sains Sosial dan Kemanusiaan (FSSK), Universiti Malaysia Sabah.", en:"A digital documentation prototype supporting the ICVIAS 2026 Poster Competition entry, Faculty of Social Sciences and Humanities (FSSK), Universiti Malaysia Sabah."},
   footerRefHeading: {ms:"Rujukan", en:"Reference"},
   footerNote: {ms:"Prototaip awal. Foto lapangan sebenar (10 rekod, TDG-001 hingga TDG-016) telah dibenamkan terus dalam fail ini.", en:"Early prototype. Actual field photographs (10 records, TDG-001 to TDG-016) are embedded directly in this file."},
 };
 
 const methodList = {
   ms: [
-    "Reka bentuk etnografi kualitatif, dengan pemerhatian, temu bual, dan fotografi lapangan pada 6–7 Oktober 2024 di Kg. Sungai Tuda, Kalabakan, Sabah.",
-    "Kajian bersifat <em>cross-sectional</em>. Pengkaji hadir hanya apabila ada majlis Pasak Indong yang sedang berjalan.",
-    "7 daripada 15 informan yang hadir dapat menerangkan makna di sebalik Nasi Rasul; selebihnya tidak dimaklumkan atau tidak bertanya secara khusus.",
+    "Reka bentuk etnografi kualitatif, dengan pemerhatian, temu bual dan fotografi lapangan pada Oktober 2024 dan Januari hingga Mei 2026 di Kg. Sungai Tuda, Kalabakan, Sabah.",
+    "Kajian bersifat cross-sectional. Pengkaji hadir hanya apabila ada majlis Pasak Indong yang sedang berjalan.",
+    "9 informan yang hadir dapat menerangkan makna di sebalik Nasi Rasul",
     "Semua foto disahkan kebenaran penggunaannya untuk tujuan akademik melalui borang persetujuan (consent) informan."
   ],
   en: [
-    "A qualitative ethnographic design, with observation, interviews, and field photography conducted on 6–7 October 2024 in Kg. Sungai Tuda, Kalabakan, Sabah.",
-    "The study is <em>cross-sectional</em>. The researcher was present only when a Pasak Indong ceremony was taking place.",
-    "7 of the 15 informants present were able to explain the meaning behind Nasi Rasul; the rest were either not informed or did not ask specifically.",
+    "A qualitative ethnographic design, with observation, interviews and field photography conducted in October 2024 and January to May 2026 in Kg. Sungai Tuda, Kalabakan, Sabah.",
+    "The study is cross-sectional. The researcher was present only when a Pasak Indong ceremony was taking place.",
+    "9 of the informants present were able to explain the meaning behind Nasi Rasul",
     "All photographs were confirmed for academic use through informant consent forms."
   ]
 };
@@ -192,7 +192,8 @@ function renderCatalog(filter){
     const desc = currentLang==='en' ? item.desc_en : item.desc;
     const catLabel = currentLang==='en' ? item.category_en : item.category;
     card.innerHTML = `
-      <div class="card-swatch" style="${photos[item.code] ? `background-image:linear-gradient(180deg, rgba(36,26,18,0) 45%, rgba(36,26,18,0.65) 100%), url('${photos[item.code]}'); background-size:cover; background-position:center;` : ''}">
+      <div class="card-swatch">
+        ${photos[item.code] ? `<img src="${photos[item.code]}" alt="${item.code}">` : ''}
         <span class="card-code">${item.code}</span>
         <span class="card-tag">${catLabel}</span>
       </div>
@@ -219,12 +220,12 @@ function openModal(item){
   if(item.extra && item.extra.length){
     extraHtml = item.extra.map(e => {
       const em = lang==='en' ? e.makna_en : e.makna;
-      return `<div class="record-value extra">"${em}" (${e.informan})</div>`;
+      return `<div class="record-value extra">"${em}" ${e.informan}</div>`;
     }).join('');
   }
   modal.innerHTML = `
     <button class="modal-close" id="modalClose">✕</button>
-    ${photos[item.code] ? `<img src="${photos[item.code]}" alt="${item.code}" style="width:100%;max-height:340px;object-fit:cover;border-radius:18px 18px 0 0;">` : ''}
+    ${photos[item.code] ? `<img src="${photos[item.code]}" alt="${item.code}" style="width:100%;height:auto;display:block;border-radius:18px 18px 0 0;">` : ''}
     <div class="modal-head">
       <span class="card-code mono">${item.code} · ${catLabel}</span>
       <h3>${title}</h3>
